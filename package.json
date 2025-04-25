@@ -1,0 +1,16 @@
+{
+  "name": "feb-2025-final-project-and-deployment-bravonokoth",
+  "version": "1.0.0",
+  "description": "A responsive blog website for the PLP Web Technologies Feb 2025 final project.",
+  "main": "index.html",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^4.1.4"
+  }
+}
